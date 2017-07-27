@@ -30,8 +30,15 @@ class ViewController: UIViewController {
     
     
     @IBAction func IncButton(_ sender: Any) {
+        
+        let strNumber = NumberLabel.text
+        let intNumber = Int(strNumber!)
+        
+        let myClass = MyClass()
+        let intNewNumber = myClass.IncreaseNumber(intNumber: intNumber!)
+        print("Number ==> \(intNewNumber)")
+        
     }
-    
     
 
     override func viewDidLoad() {
