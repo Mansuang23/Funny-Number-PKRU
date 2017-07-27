@@ -9,10 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var NumberLabel: UILabel!
+    
+    
+    @IBAction func DecButton(_ sender: Any) {
+    }
+    
+    
+    @IBAction func IncButton(_ sender: Any) {
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let testClass = MyClass()
+        print("Name ==> \(testClass.strName)")
+        
     }
 
     override func didReceiveMemoryWarning() {

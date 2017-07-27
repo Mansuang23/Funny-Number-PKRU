@@ -30,8 +30,16 @@
                                 <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
                                     <navigationItem title="Home" id="fjP-tZ-cLe">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="aGD-sI-JIs"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="uw0-gv-e19"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="aGD-sI-JIs">
+                                            <connections>
+                                                <action selector="DecButton:" destination="BYZ-38-t0r" id="shO-BE-Seo"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="uw0-gv-e19">
+                                            <connections>
+                                                <action selector="IncButton:" destination="BYZ-38-t0r" id="9e9-rP-p0o"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -57,6 +65,9 @@
                             <constraint firstAttribute="trailing" secondItem="A17-aT-ATb" secondAttribute="trailing" id="zRV-Ej-RxT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="NumberLabel" destination="Chi-AA-B15" id="VQU-Sa-vaW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

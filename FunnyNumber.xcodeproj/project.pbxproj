@@ -13,6 +13,7 @@
 		5F8E142B1F29D7C3008DD945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E142A1F29D7C3008DD945 /* Assets.xcassets */; };
 		5F8E142E1F29D7C3008DD945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E142C1F29D7C3008DD945 /* LaunchScreen.storyboard */; };
 		5F8E14361F29DFFA008DD945 /* BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E14351F29DFFA008DD945 /* BG.jpg */; };
+		5F8E14381F29EA7A008DD945 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E14371F29EA7A008DD945 /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5F8E142D1F29D7C3008DD945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F8E142F1F29D7C3008DD945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F8E14351F29DFFA008DD945 /* BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BG.jpg; path = ../../../../Downloads/BG.jpg; sourceTree = "<group>"; };
+		5F8E14371F29EA7A008DD945 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5F8E142A1F29D7C3008DD945 /* Assets.xcassets */,
 				5F8E142C1F29D7C3008DD945 /* LaunchScreen.storyboard */,
 				5F8E142F1F29D7C3008DD945 /* Info.plist */,
+				5F8E14371F29EA7A008DD945 /* MyClass.swift */,
 			);
 			path = FunnyNumber;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				5F8E14261F29D7C2008DD945 /* ViewController.swift in Sources */,
 				5F8E14241F29D7C2008DD945 /* AppDelegate.swift in Sources */,
+				5F8E14381F29EA7A008DD945 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
