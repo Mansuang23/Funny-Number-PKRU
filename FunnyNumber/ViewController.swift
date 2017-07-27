@@ -15,7 +15,18 @@ class ViewController: UIViewController {
     
     
     @IBAction func DecButton(_ sender: Any) {
-    }
+        
+        let strNumber = NumberLabel.text
+        let intNumber = Int(strNumber!)
+        
+        let myClass = MyClass()
+        let intNewNumber = myClass.DecreaseNumber(intNumber: intNumber!)
+        print("Number ==> \(intNewNumber)")
+        
+        
+        
+        
+    }// DecreaseButton
     
     
     @IBAction func IncButton(_ sender: Any) {
