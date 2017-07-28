@@ -14,6 +14,7 @@
 		5F8E142E1F29D7C3008DD945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E142C1F29D7C3008DD945 /* LaunchScreen.storyboard */; };
 		5F8E14361F29DFFA008DD945 /* BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E14351F29DFFA008DD945 /* BG.jpg */; };
 		5F8E14381F29EA7A008DD945 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E14371F29EA7A008DD945 /* MyClass.swift */; };
+		5FD7BDB21F2AD5520076C7A0 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5FD7BDB11F2AD5520076C7A0 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5F8E142F1F29D7C3008DD945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F8E14351F29DFFA008DD945 /* BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BG.jpg; path = ../../../../Downloads/BG.jpg; sourceTree = "<group>"; };
 		5F8E14371F29EA7A008DD945 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		5FD7BDB11F2AD5520076C7A0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		5F8E14171F29D7C2008DD945 = {
 			isa = PBXGroup;
 			children = (
+				5FD7BDB11F2AD5520076C7A0 /* README.md */,
 				5F8E14221F29D7C2008DD945 /* FunnyNumber */,
 				5F8E14211F29D7C2008DD945 /* Products */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				5F8E14261F29D7C2008DD945 /* ViewController.swift in Sources */,
 				5F8E14241F29D7C2008DD945 /* AppDelegate.swift in Sources */,
+				5FD7BDB21F2AD5520076C7A0 /* README.md in Sources */,
 				5F8E14381F29EA7A008DD945 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +313,7 @@
 				5F8E14341F29D7C3008DD945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
